@@ -40,11 +40,24 @@ ol, ul {
   background: #ddd;
 }
 
+
 .game {
   display: flex;
-  flex-direction: row;
+  justify-content: center;
+}
+button.square {
+  width: 100px;
+  font-size: 70px;
+  height: 100px;
+}
+.title {
+  font-size: 24px;
 }
 
 .game-info {
   margin-left: 20px;
+}
+.game-board {
+  max-width: 480px;
+  max-height: 480px;
 }
