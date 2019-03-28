@@ -1,4 +1,4 @@
-# TicTacToe_React
+# TicTacToe
 
 ## I made two different examples tic tac toe. One using a react. Two connected to redux
 
