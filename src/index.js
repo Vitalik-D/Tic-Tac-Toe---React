@@ -1,12 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import Game from "./components/Game";
-import * as serviceWorker from "./serviceWorker";
+import Root from "./Root";
+import { HashRouter } from 'react-router-dom';
 
-ReactDOM.render(<Game />, document.getElementById("root"));
+ReactDOM.render(
+    <HashRouter basename={process.env.PUBLIC_URL}>
+        <Root />
+    </HashRouter>,
+    document.getElementById("root"));
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: http://bit.ly/CRA-PWA
-serviceWorker.unregister();
+

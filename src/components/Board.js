@@ -1,6 +1,7 @@
 import React from "react";
 import Square from "./Square";
 import calculateWinner from "./calculateWinner";
+import { Link } from "react-router-dom";
 
 class Board extends React.Component {
   handleClick(i) {
@@ -56,6 +57,15 @@ class Board extends React.Component {
           {this.renderSquare(7)}
           {this.renderSquare(8)}
         </div>
+        <div>
+          <Link to="/">
+            <p>Back Home</p>
+          </Link>
+          <Link to="/reduxtic">
+            <p>Tic tac toe (Redux)</p>
+          </Link>
+        </div>
+
       </div>
     );
   }
