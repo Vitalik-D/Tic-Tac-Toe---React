@@ -1,5 +1,5 @@
-# TicTacToe_React
+# TicTacToe
 
-## Made tic tac toe with sliders with the ability to get back on any move back
+## I made two different examples tic tac toe. One using a react. Two connected to redux
 
-## [Preview]( https://vitalik-d.github.io/TicTacToe_React/)
+## [Preview]( https://vitalik-d.github.io/TicTacToe/)
