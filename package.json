@@ -1,6 +1,6 @@
 {
   "name": "tictactoe",
-  "homepage": "https://vitalik-d.github.io/TicTacToe_React/",
+  "homepage": "https://vitalik-d.github.io/TicTacToe/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
